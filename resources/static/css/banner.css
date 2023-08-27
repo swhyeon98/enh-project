@@ -1,0 +1,92 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 26.4%;
+    /* 508/1920 */
+    top: 4.9%;
+    /* 95/1920 */
+}
+
+.banner_image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_text_background1 {
+    position: absolute;
+    width: 38.85%;
+    /* 746/1920 */
+    height: 76.2%;
+    /* 387/508 */
+    left: 30.6%;
+    /* 587/1920 */
+    top: 12.8%;
+    /* 65/508 */
+    background: rgba(58, 122, 183, 0.6);
+}
+
+.banner_text_background2 {
+    position: absolute;
+    width: 40.94%;
+    /* 786/1920 */
+    height: 84.05%;
+    /* 427/508 */
+    left: 30.1%;
+    /* 578/1920 */
+    top: 10.8%;
+    /* 55/508 */
+    border: 2px solid #FFFFFF;
+    opacity: 0.6;
+}
+
+.text_group {
+    position: absolute;
+    width: 30.57%;
+    /* 587/1920 */
+    height: 35.04%;
+    /* 178/508 */
+    left: 35.26%;
+    /* 677/1920 */
+    top: 31.1%;
+    /* 158/508 */
+}
+
+.banner_text1 {
+    position: absolute;
+    font-family: 'NanumGothic';
+    font-size: 1vw;
+    /* 뷰포트에 따라 크기가 변하게 설정, 조정 필요 */
+    color: #FFFFFF;
+    left: 0;
+    top: 28.15%;
+    /* 143/508 */
+}
+
+.separator {
+    position: absolute;
+    width: 2.44%;
+    /* 47/1920 */
+    height: 0.59%;
+    /* 3/508 */
+    left: 13.39%;
+    /* 257/1920 */
+    top: 22.44%;
+    /* 114/508 */
+    background: #FFFFFF;
+}
+
+.banner_text2 {
+    position: absolute;
+    font-family: 'NanumGothic';
+    font-size: 2vw;
+    /* 뷰포트에 따라 크기가 변하게 설정, 조정 필요 */
+    color: #FFFFFF;
+    left: 2.5%;
+    /* 48/1920 */
+    top: 10.04%;
+    /* 51/508 */
+}
